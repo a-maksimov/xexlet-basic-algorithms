@@ -26,8 +26,9 @@ def solution(items, order="asc"):
 
     return result_smaller + [pivot] + result_larger
 
+
 items = [10, 20, 0, -1]
 
-print(solution(items)) # [-1, 0, 10, 20]
-print(solution([])) # []
-print(solution(items, 'desc')) # [20, 10, 0, -1]
+print(solution(items))  # [-1, 0, 10, 20]
+print(solution([]))  # []
+print(solution(items, 'desc'))  # [20, 10, 0, -1]
